@@ -12,7 +12,7 @@ const forecast = (longitude, latitude, callback) => {
         } else {
             callback(undefined,
                 'The current temperature is '+
-                body.current.temperature +'. The chance ' +
+                body.current.temperature +' degrees. The chance ' +
                 'of precipitation is '+body.current.precip+
                 '%. The UV index is '+body.current.uv_index+'.'
             )
